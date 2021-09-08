@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    @responsive {
+        .grid-col-30-40 {
+            grid-template-columns: 40% 60%;
+        }
+        .h-150 {
+            height: 40rem;
+        }
+        .hidden-top {
+            clip: rect(0, 100%, 0, 100%);
+        }
+        .left-1-2 {
+            left: 50%;
+        }
+    }
+}
